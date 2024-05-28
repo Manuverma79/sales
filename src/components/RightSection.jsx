@@ -13,7 +13,7 @@ const RightSection = (props) => {
           <img
             onClick={() => setShowModal(true)}
             className="w-auto h-auto cursor-pointer hover:shadow-md drop hover:shadow-primary rounded-box"
-            src={`src/assets/${props.image}`}
+            src={`/assets/${props.image}`}
           />
         </div>
         <div className="m-auto text-2xl font-semibold text-right md:text-5xl text-neutral-content font-PrimaryFont">

@@ -16,7 +16,7 @@ const LeftSection = (props) => {
           <img
             onClick={() => setShowModal(true)}
             className="w-auto h-auto cursor-pointer hover:shadow-md drop hover:shadow-primary rounded-box"
-            src={`src/assets/${props.image}`}
+            src={`/assets/${props.image}`}
           />
         </div>
       </div>
